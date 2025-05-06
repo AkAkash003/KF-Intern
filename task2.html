@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form using all input types</title>
+</head>
+
+<body>
+    <form>
+        <h1>Types of Input Types</h1>
+
+        <label for="fname"><strong>Full Name:</strong></label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <br>
+
+        <b><label for="phone">Enter a phone number:</label><br></b>
+        <input type="tel" id="phone" name="phone" placeholder="+91-"><br>
+        <br>
+
+        <label for="email"><strong>Enter your email:</strong></label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <b><label for="pwd">Password:</label></b><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+
+        <b><label for="date">Date:</label> </b>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <b><label for="appt">Select a time:</label> </b>
+        <input type="time" id="appt" name="appt">
+        <br><br>
+
+        <b><label for="favcolor">Select your favorite color:</label> </b>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <br><br>
+
+        <b><label for="vol">Range (between 0 and 50):</label> </b>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <br><br>
+        
+        <b><label for="gender">Gender</label><br></b>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+
+        <b><label for="fname">Skills</label><br></b>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> HTML</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> CSS</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> JavaScript</label><br><br>
+
+        <b><label for="myfile">Select a file:</label> </b>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
