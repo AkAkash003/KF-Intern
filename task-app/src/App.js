@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-// Dummy tech stack data
+
 const techStack = [
   {
     name: 'React',
@@ -17,7 +17,7 @@ const techStack = [
   }
 ];
 
-// TechStack component with logos
+
 const TechStackList = () => (
   <ul style={{ listStyle: 'none', padding: 0 }}>
     {techStack.map((tech, index) => (
@@ -33,7 +33,7 @@ const TechStackList = () => (
   </ul>
 );
 
-// Update message component
+
 const UpdateMessage = () => {
   const [message, setMessage] = useState("I am learning React");
 
@@ -49,12 +49,11 @@ const UpdateMessage = () => {
   );
 };
 
-// Route components
+
 const Home = () => <h2>This is Home page</h2>;
 const Blog = () => <h2>This is Blog page</h2>;
 const Contact = () => <h2>This is Contact Us page</h2>;
 
-// Main App
 const App = () => {
   return (
     <Router>
