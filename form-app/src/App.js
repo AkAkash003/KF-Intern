@@ -30,7 +30,7 @@ const SimpleForm = () => {
   return (
     <div style={containerStyle}>
       <form onSubmit={handleSubmit} style={formStyle}>
-        <h2 style={{ textAlign: 'center' }}>Form</h2>
+        <h2 style={{ textAlign: 'center' }}>Form App</h2>
 
 
         {Object.keys(formData).map((field) => (
